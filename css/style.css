@@ -61,7 +61,8 @@ body {
 	padding-left: 5vw;
 }
 
-.menu {
+.header button {
+	width: 10rem;
 	display: none;
 }
 
@@ -69,10 +70,46 @@ body {
 	filter: invert(100%);
 }
 
+/* Mobile Navigation */
+
+.nav-header {
+	background-color: #242428;
+	display: none;
+}
+
+.nav-header ul {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.nav-header li {
+	list-style: none;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	text-align: center;
+}
+
+.nav-header li:hover {
+	background-color: #c3073f;
+}
+
+.nav-header a {
+	text-decoration: none;
+	color: white;
+}
+
+.nav-ico {
+	width: 1rem;
+	height: 1rem;
+}
+
 @media screen and (max-width: 768px) {
-	.menu {
-		display: flex;
-		justify-content: center;
+	.header button {
+		display: block;
+		border: 0;
+		background: #242428;
+		height: 100%;
 	}
 	.logo {
 		padding-left: 0;
