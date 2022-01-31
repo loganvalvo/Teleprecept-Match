@@ -118,3 +118,32 @@ body {
 		display: none;
 	}
 }
+.chat
+{
+
+}
+.contact-container
+{
+	overflow: auto;
+	border:3px solid black;
+	height:100vh;
+	max-width:20rem;
+	margin:5rem
+}
+.contact
+{
+	border:2px solid black;
+	height:12vh;
+	max-width:25rem;
+}
+.chat-window
+{
+	border:3px solid black;
+	height:100vh;
+	max-width:35rem;
+}
+
+.message
+{
+
+}
