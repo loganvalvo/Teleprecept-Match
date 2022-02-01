@@ -1,13 +1,22 @@
+.chat
+{
+	display:flex;
+	height: 120vh;
+}
 .contact-container {
 	overflow: auto;
-	border: 3px solid black;
+	border: 4px solid black;
+	border-radius: 25px;
 	height: 90vh;
-	max-width: 20rem;
+	width: 20rem;
 	margin-left: 5rem;
 	margin-top: 2rem;
 }
 .contact {
-	border: 2px solid black;
+	display:block;
+	border: solid 1px black;
+	border-left:0px;
+	border-right:0px;
 	height: 12vh;
 	max-width: 25rem;
 }
@@ -16,10 +25,11 @@
 }
 .chat-window {
 	overflow: auto;
-	position: absolute;
-	top: 7rem;
-	right: 17rem;
-	border: 3px solid black;
+	margin-right: 5rem;
+	margin-left: 1rem;
+	margin-top: 2rem;
+	border-radius: 25px;
+	border: 4px solid black;
 	height: 90vh;
 	width: 35rem;
 }
@@ -28,8 +38,10 @@
 	margin: 0.5rem;
 	margin-right: 2rem;
 	padding: 0.5rem;
-	border: 1px solid blue;
-	background-color: lightblue;
+	border: 1px solid black;
+	background-color: #8c8c8c;
+	border-radius:25px;
+	max-width:30rem;
 }
 .message-out {
 	margin: 0.5rem;
@@ -38,16 +50,19 @@
 	border: 1px solid gray;
 	background-color: lightgray;
 	text-align: right;
+	border-radius:25px
 }
 .send-button {
 	margin: 0.5rem;
 	position: absolute;
-	top: 40rem;
-	left: 26rem;
+	top: 40.05rem;
+	right: 16rem;
+
 }
 .send-text {
 	margin: 0.5rem;
 	position: absolute;
 	top: 40rem;
-	left: 31rem;
+	left: 27rem;
+	border-radius:25px
 }
