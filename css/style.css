@@ -126,9 +126,10 @@ body {
 {
 	overflow: auto;
 	border:3px solid black;
-	height:100vh;
+	height:90vh;
 	max-width:20rem;
-	margin:5rem
+	margin-left:5rem;
+	margin-top: 2rem;
 }
 .contact
 {
@@ -136,14 +137,18 @@ body {
 	height:12vh;
 	max-width:25rem;
 }
+.contact-contents
+{
+	margin:.4rem;
+}
 .chat-window
 {
 	overflow: auto;
 	position:absolute;
-	top:10rem;
+	top:7rem;
 	right:17rem;
 	border:3px solid black;
-	height:100vh;
+	height:90vh;
 	width:35rem;
 }
 
@@ -163,4 +168,18 @@ body {
 	border:1px solid gray;
 	background-color: lightgray;
 	text-align: right;
+}
+.send-button
+{
+	margin:.5rem;
+	position:absolute;
+	top:40rem;
+	left:26rem;
+}
+.send-text
+{
+	margin:.5rem;
+	position:absolute;
+	top:40rem;
+	left:31rem;
 }
