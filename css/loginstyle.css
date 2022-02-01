@@ -1,0 +1,57 @@
+/* Login Section */
+
+.form-container {
+	height: 80vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.form-signin {
+	max-width: 350px;
+	text-align: center;
+	width: 100%;
+}
+
+.form-control {
+	border: 1px solid #ced4da;
+	outline: 0;
+	transition: all 0.1s;
+}
+
+.form-control:focus {
+	border: 1px solid #c3073f;
+	box-shadow: 0 0 0 5px #c3073f49;
+}
+
+.form-control,
+.btn {
+	height: 4rem;
+	border-radius: 5px;
+	box-sizing: border-box;
+	padding: 1.5rem;
+	width: 100%;
+}
+
+.btn {
+	background: #242428;
+	border: 0;
+	border-radius: 30px;
+	color: #fff;
+	cursor: pointer;
+	outline: 0;
+	transition: all 0.1s;
+}
+
+.btn:focus {
+	background: #c3073f;
+}
+
+.form-group {
+	margin: 1rem 0;
+}
+
+.muted {
+	color: #6c757d;
+}

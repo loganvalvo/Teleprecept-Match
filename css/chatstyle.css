@@ -1,0 +1,53 @@
+.contact-container {
+	overflow: auto;
+	border: 3px solid black;
+	height: 90vh;
+	max-width: 20rem;
+	margin-left: 5rem;
+	margin-top: 2rem;
+}
+.contact {
+	border: 2px solid black;
+	height: 12vh;
+	max-width: 25rem;
+}
+.contact-contents {
+	margin: 0.4rem;
+}
+.chat-window {
+	overflow: auto;
+	position: absolute;
+	top: 7rem;
+	right: 17rem;
+	border: 3px solid black;
+	height: 90vh;
+	width: 35rem;
+}
+
+.message-in {
+	margin: 0.5rem;
+	margin-right: 2rem;
+	padding: 0.5rem;
+	border: 1px solid blue;
+	background-color: lightblue;
+}
+.message-out {
+	margin: 0.5rem;
+	margin-left: 2rem;
+	padding: 0.5rem;
+	border: 1px solid gray;
+	background-color: lightgray;
+	text-align: right;
+}
+.send-button {
+	margin: 0.5rem;
+	position: absolute;
+	top: 40rem;
+	left: 26rem;
+}
+.send-text {
+	margin: 0.5rem;
+	position: absolute;
+	top: 40rem;
+	left: 31rem;
+}
