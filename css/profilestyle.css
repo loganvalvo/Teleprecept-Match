@@ -1,0 +1,53 @@
+.profile-text
+{
+  margin: 2rem;
+}
+
+.profile-container
+{
+  margin-left: 2rem;
+  height:50vh;
+  grid-template-rows: 300px 50px auto;
+  grid-template-column: auto auto;
+  align-content: top;
+}
+.person-container
+{
+  display: flex;
+}
+.person-image
+{
+  height:75px;
+  margin-bottom: 2rem;
+  margin-right:2rem;
+}
+.person-name
+{
+}
+.personal-container
+{
+  display: flex;
+}
+.personal-bio
+{
+  margin-right: 3rem;
+}
+.personal-specialities
+{
+  margin-top:1rem;
+}
+.second-row-container /*idk I couldn't think of another name*/
+{
+  display: flex;
+
+}
+.available
+{
+  margin-right: 3rem;
+}
+.location
+{
+  position: relative;
+  bottom: 1.25rem;
+  left: 2rem;
+}
