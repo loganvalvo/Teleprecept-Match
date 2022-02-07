@@ -9,13 +9,18 @@
 		<link rel="stylesheet" href="css/style.css" />
 		<link rel="stylesheet" href="css/loginstyle.css" />
 		<script src="js/menu-burger.js"></script>
+		<script type="text/javascript">
+			function buttonclick() {
+				window.location.href = "login.html";
+			}
+		</script>
 	</head>
 	<body>
 		<div id="page-container">
 			<div id="content-wrap">
 				<!-- BEGIN HEADER -->
 				<header class="header">
-					<a class="logo" href=""><img class="invert" src="img/svg/logo.svg" alt="" /></a>
+					<a class="logo" href=""><img class="invert" src="img/png/icons/logo.png" alt="" /></a>
 					<ul>
 						<a class="list-item" href="index.html">
 							<li>Home</li>
@@ -46,8 +51,8 @@
 						<a href="profile.html">
 							<li><img class="nav-ico invert" src="img/svg/user.svg" alt="" />&nbsp;Profile</li>
 						</a>
-						<a href="feed.html">
-							<li><img class="nav-ico invert" src="img/svg/chart-tree.svg" alt="" />&nbsp;Feed</li>
+						<a href="connect.html">
+							<li><img class="nav-ico invert" src="img/svg/chart-tree.svg" alt="" />&nbsp;Connect</li>
 						</a>
 						<a href="login.html">
 							<li><img class="nav-ico invert" src="img/svg/angle-circle-right.svg" alt="" />&nbsp;Log in</li>
@@ -62,23 +67,25 @@
 				</header>
 				<!-- END HEADER -->
 				<!-- BEGIN LOGIN -->
-				<div class="form-container">
-					<form class="form-signin" action="" method="POST">
-						<h1>Sign up</h1>
-						<div class="form-group">
-							<input class="form-control" type="text" placeholder="Username" minlength="5" maxlength="255" autofocus />
-						</div>
-						<div class="form-group">
-							<input class="form-control" type="text" placeholder="Email address" minlength="5" maxlength="255" autofocus />
-						</div>
-						<div class="form-group">
-							<input class="form-control" type="password" placeholder="Password" maxlength="255" />
-						</div>
-						<div class="form-group">
-							<input class="form-control" type="password" placeholder="Repeat password" maxlength="255" />
-						</div>
-						<button class="btn">Sign up</button>
-					</form>
+				<div class="form-container vertical-spacing">
+					<div class="form-box">
+						<form class="form-signin" action="" method="POST">
+							<h1>Sign up</h1>
+							<div class="form-group">
+								<input class="form-control" type="text" placeholder="Username" minlength="5" maxlength="255" autofocus />
+							</div>
+							<div class="form-group">
+								<input class="form-control" type="text" placeholder="Email address" minlength="5" maxlength="255" />
+							</div>
+							<div class="form-group">
+								<input class="form-control" type="password" placeholder="Password" maxlength="255" />
+							</div>
+							<div class="form-group">
+								<input class="form-control" type="password" placeholder="Repeat password" maxlength="255" />
+							</div>
+							<button type="button" class="btn" onclick="buttonclick()"><span> Sign Up </span></button>
+						</form>
+					</div>
 				</div>
 				<!-- END LOGIN -->
 				<!-- BEGIN FOOTER -->

@@ -1,4 +1,4 @@
-/* Login Section */
+/* Login/Signup Section */
 
 .form-container {
 	height: 80vh;
@@ -8,8 +8,16 @@
 	justify-content: center;
 }
 
+.form-box {
+	background: #fff;
+	max-width: 400px;
+	width: 70vw;
+	padding: 20px;
+	border: 1px solid #e4e5e7;
+	border-radius: 10px;
+}
+
 .form-signin {
-	max-width: 350px;
 	text-align: center;
 	width: 100%;
 }
@@ -17,12 +25,13 @@
 .form-control {
 	border: 1px solid #ced4da;
 	outline: 0;
-	transition: all 0.1s;
+	transition: all 0.05s;
 }
 
-.form-control:focus {
-	border: 1px solid #c3073f;
-	box-shadow: 0 0 0 5px #c3073f49;
+.form-control:focus,
+.form-control:hover {
+	border: 1px solid #0071e3;
+	box-shadow: 0 0 0 5px lightblue;
 }
 
 .form-control,
@@ -35,17 +44,23 @@
 }
 
 .btn {
-	background: #242428;
-	border: 0;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: 500;
+	background: #fff;
+	border: 1px solid #6c757d;
 	border-radius: 30px;
-	color: #fff;
+	color: black;
 	cursor: pointer;
 	outline: 0;
-	transition: all 0.1s;
+	transition: all 0.05s;
 }
 
-.btn:focus {
-	background: #c3073f;
+.btn:focus,
+.btn:hover {
+	background: #0071e3;
+	color: white;
 }
 
 .form-group {
