@@ -9,6 +9,7 @@
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/profilestyle.css" />
 			<script src="js/menu-burger.js"></script>
+			<script src="js/edit-profile.js"></script>
 		</head>
 		<body>
 			<div id="page-container">
@@ -60,6 +61,7 @@
 						</a>
 					</ul>
 				</header>
+			</div>
 				<!-- END HEADER -->
 					<h1 class="profile-text">Profile</h1>
 					<div class="profile-container">
@@ -70,7 +72,9 @@
 							<div class="person-name">
 								<h3>John Doe</h3>
 							</div>
-
+							<form>
+								<button onclick="editFunc()" class="edit-button">Edit</button>
+							</form>
 						</div>
 						<div class="second-row-container">
 							<div class="availability">
@@ -81,28 +85,42 @@
 							<div class="location">
 								<p>Location: Pittsburgh</p>
 							</div>
+							<form>
+								<button class="edit-button" onclick="editFunc()">Edit</button>
+							</form>
 						</div>
 						<div class="personal-container">
-							<div class="personal-bio">
+							<div id="personal-bio" class="personal-bio">
 								<p>The bio for the student or the precept be here</p>
 							</div>
 
-							<div class="personal-specialities">
+							<div id="bio-edit" class="bio-edit">
+								<textarea></textarea>
+							</div>
+
+							<div id="personal-specialities" class="personal-specialities">
+								<ul>
+									<li>This is an example</li>
+								</ul>
+							</div>
+
+							<div id="specialities-edit" class="specialities-edit">
 								<input type="checkbox" id="pediatric" name="pediatric-check">
 								<label for="pediatric-check">Pediatric</label><br>
 								<input type="checkbox" id="geriatric" name="geriatric-check">
 								<label for="geriatric-check">Geriatric</label><br>
-								<input type="checkbox" id="cardio-vascular" name="cardio-vascular-check">
-								<label for="cardio-vascular-check">Cardio Vascular</label><br>
+								<input type="checkbox" id="Cardiovascular" name="cardiovascularcheck">
+								<label for="cardio-vascular-check">Cardiovascular</label><br>
 								<input type="checkbox" id="mental-health" name="mental-health-check">
 								<label for="mental-health-check">Mental Health</label><br>
 								<input type="checkbox" id="other" name="other-check">
 								<label for="other-check">Other</label><br>
 							</div>
-
+							<form>
+								<button class="edit-button" onclick="editFunc()">Edit</button>
+							</form>
 							</div>
 						</div>
-					</div>
 					<!-- BEGIN FOOTER -->
 				</div>
 				<footer class="footer-container">

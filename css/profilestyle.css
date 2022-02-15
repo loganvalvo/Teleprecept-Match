@@ -1,11 +1,18 @@
 .profile-text
 {
   margin: 2rem;
+  margin-top: 5rem;
+  margin-left: 5rem;
 }
-
+.edit-button
+{
+  height: 30px;
+  width: 50px;
+  margin-left: 3rem;
+}
 .profile-container
 {
-  margin-left: 2rem;
+  margin-left: 5rem;
   height:50vh;
   grid-template-rows: 300px 50px auto;
   grid-template-column: auto auto;
@@ -24,18 +31,6 @@
 .person-name
 {
 }
-.personal-container
-{
-  display: flex;
-}
-.personal-bio
-{
-  margin-right: 3rem;
-}
-.personal-specialities
-{
-  margin-top:1rem;
-}
 .second-row-container /*idk I couldn't think of another name*/
 {
   display: flex;
@@ -50,4 +45,28 @@
   position: relative;
   bottom: 1.25rem;
   left: 2rem;
+}
+.location-edit
+{
+  display: none;
+}
+.personal-container
+{
+  display: flex;
+}
+.personal-bio
+{
+  margin-right: 3rem;
+}
+.bio-edit
+{
+  display: none;
+}
+.personal-specialities
+{
+  margin-top:1rem;
+}
+.specialities-edit
+{
+  display: none;
 }
